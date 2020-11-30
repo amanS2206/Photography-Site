@@ -382,8 +382,59 @@ blockquote span{
 .blog-text{
     font-weight: 300;
 }
+.section-five{
+    margin: 40px 0;
+}
+.section-five .container div{
+    margin: 20px 0;
+}
+.contact-top{
+    text-align: center;
+}
+.contact-top h3{
+    font-size: 28px;
+}
+.contact-top p{
+    font-weight: 300;
+    width: 70%;
+    margin: 0 auto;
+}
+.contact-middle div{
+    text-align: center;
+    padding: 25px 0;
+    background: var(--dark);
+    color: #fff;
+}
+.contact-middle div span{
+    display: block;
+}
+.contact-icon{
+    font-size: 30px;
+}
+.contact-middle div span:nth-child(2){
+    font-size: 18px;
+    font-weight: bold;
+}
 
-
+.contact-middle div p{
+    font-weight: 300;
+    opacity: 0.7;
+}
+.contact-bottom{
+    margin-top: 50px!important;
+}
+.form input[type = "text"], .form input[type = "email"], .form textarea{
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid var(--lightGreen);
+    outline: none;
+    border-radius: 5px;
+}
+.contact-bottom .form{
+    padding: 0 20px;
+}
 
 
 
