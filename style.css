@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6, p{
     background:transparent;
     font-size: 15px;
     padding: 12px;
-    border: 2px solid;
+    border: 2px solid var(--darkGreen);
     border-radius: 25px;
     margin: 15px 0;
     transition: all 0.5s ease;
@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6, p{
     color: #fff;
 }
 .active{
-    color: var(--lightGreen)! important ;
+    color: var(--lightGreen)!important ;
 }
 
 .header{
@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6, p{
 .navbtn{
     width: 40px;
     height: 40px;
-    border: 1px solid;
+    border: 1px solid var(--white);
     cursor: pointer;
 }
 .navbtn:hover{
@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .about-content h2{
-    font-size: 480px;
+    font-size: 48px;
     text-align: center;
     margin-bottom: 35px;
     color: var(--lightGreen);
@@ -172,7 +172,7 @@ h1, h2, h3, h4, h5, h6, p{
     color:#fff;
     font-size: 30px;
     font-weight: 100;
-    background: rgba(0,0,0,0.6);
+    background: rgba(255,255,255,0.1);
     width: 400px;
     margin: 35px auto;
     text-align: center;
