@@ -626,6 +626,12 @@ blockquote span{
         grid-template-columns: repeat(3, 1fr);
     }
 }
+@media screen and (min-width: 1400px){
+    /* section four */
+    .blog-wrapper-sm{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
 
 
 
