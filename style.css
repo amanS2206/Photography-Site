@@ -504,6 +504,27 @@ blockquote span{
     }
 }
 
+@media screen and (min-width: 800px){
+    /* section two */
+    .insta-imgs{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    /* section three */
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* section four */
+    .blog-wrapper-sm{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+    
+}
+
 
 
 
