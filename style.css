@@ -495,7 +495,14 @@ blockquote span{
     font-size: 14px;
 }
 
-
+@media screen and (min-width: 678px){
+    /* section five */
+    .contact-middle{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
+    }
+}
 
 
 
