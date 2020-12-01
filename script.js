@@ -7,6 +7,6 @@ showBtn.addEventListener('click', function(){
         showBtn.innerHTML = '<i class = "fa fa-bars"></i>';     
     }else {
         topNav.classList.add('shownav');
-        showBtn.innerHTML = '<i class= "fa fa-times"></i>'
+        showBtn.innerHTML = '<i class= "fa fa-times"></i>';
     }
 })

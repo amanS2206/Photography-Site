@@ -32,7 +32,6 @@ a{
 h1, h2, h3, h4, h5, h6, p{
     margin: 15px 0;
 }
-
 .flex{
     display: flex;
     justify-content: center;
@@ -64,7 +63,7 @@ h1, h2, h3, h4, h5, h6, p{
     color: #fff;
 }
 .active{
-    color: var(--lightGreen)!important ;
+    color: var(--lightGreen)!important;
 }
 
 .header{
@@ -168,7 +167,7 @@ h1, h2, h3, h4, h5, h6, p{
     margin-bottom: 35px;
     color: var(--lightGreen);
 }
-.about-contenth3{
+.about-content h3{
     color:#fff;
     font-size: 30px;
     font-weight: 100;
@@ -223,12 +222,12 @@ blockquote span{
 
 
 .section-one{
-    margin: 40px;
+    margin: 40px 0;
     min-height: 100vh;
 }
 
 .sec-one-left{
-    height: 40vh;
+    height: 100vh;
     background: url("Images/project-main.jpg") center/cover no-repeat;
     box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
@@ -531,10 +530,10 @@ blockquote span{
         display: flex;
         justify-content: space-between;
     }
-    .navBtn{
+    .navbtn{
         display: none;
     }
-    .brand-and-navBtn{
+    .brand-and-navbtn{
         flex: 0 0 10%;
         background: none;
     }
