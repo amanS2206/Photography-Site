@@ -19,7 +19,7 @@ function writeText(){
         if(i < type.length){
             write.innerHTML += type.charAt(i);
             i++;
-            setTimeout(typing, 30);
+            setTimeout(typing, 300);
         }
     };
     typing();
